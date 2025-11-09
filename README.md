@@ -26,13 +26,14 @@ Each problem folder should contain:
 ## How to Add a New Problem
 
 1. Create a new folder in `problems/` with a descriptive kebab-case name
-2. Add a `README.md` following this structure:
-   - Platform and difficulty
-   - Problem description
-   - Examples
-   - Approach explanation
-   - Time and space complexity analysis
-3. Add your solution in `solution.ts` (and optionally `solution.rs`)
+2. Copy templates from `.templates/` folder or create files manually:
+   - `README.md` - Use `.templates/README.md` as a starting point
+   - `solution.ts` - Use `.templates/solution.ts` as a starting point
+   - `solution.rs` (optional) - Use `.templates/solution.rs` for Rust practice
+3. Fill in the problem details, examples, and your solution
+4. Test your solution by building and running it
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed instructions.
 
 ## Building
 
